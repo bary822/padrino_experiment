@@ -18,4 +18,8 @@ PadrinoExperiment::App.controllers :dogs do
   # get '/example' do
   #   'Hello world!'
   # end
+
+  get '/goemon' do
+    "Baw!!"
+  end
 end

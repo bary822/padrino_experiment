@@ -64,5 +64,9 @@ module PadrinoExperiment
     get "/hello" do
       "Hello World!!"
     end
+
+    get :about, :map => '/about-us' do
+      render :slim, 'p.description This is a sample blog created to demonstrate how Padrino works!'
+    end
   end
 end

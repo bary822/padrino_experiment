@@ -43,10 +43,12 @@ GEM
       mime-types (< 4)
       padrino-core (= 0.14.4)
     padrino-support (0.14.4)
+    pg (1.1.4)
     rack (2.0.6)
     rack-protection (2.0.5)
       rack
     rake (12.3.2)
+    sequel (5.18.0)
     sinatra (2.0.5)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -64,7 +66,9 @@ PLATFORMS
 
 DEPENDENCIES
   padrino (= 0.14.4)
+  pg
   rake
+  sequel
   slim (~> 4.0)
 
 BUNDLED WITH

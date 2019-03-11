@@ -17,6 +17,8 @@ source 'https://rubygems.org'
 gem 'rake'
 
 # Component requirements
+gem 'pg'
+gem 'sequel'
 
 # Test requirements
 

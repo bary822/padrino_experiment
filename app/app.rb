@@ -60,5 +60,9 @@ module PadrinoExperiment
     #     render 'errors/500'
     #   end
     #
+
+    get "/hello" do
+      "Hello World!!"
+    end
   end
 end

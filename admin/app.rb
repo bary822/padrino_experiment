@@ -35,6 +35,7 @@ module PadrinoExperiment
     end
 
     access_control.roles_for :admin do |role|
+      role.project_module :dogs, '/dogs'
       role.project_module :accounts, '/accounts'
     end
 
